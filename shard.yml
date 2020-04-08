@@ -1,0 +1,27 @@
+name: seed
+version: 0.1.0
+
+authors:
+  - Mathieu Delacroix <mathieu.delacroix.fr@gmail.com>
+
+targets:
+  Seed:
+    main: src/seed.cr
+
+crystal: 0.33.0
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    version: 0.26.1
+  clear:
+    github: alex-min/clear
+    branch: fix
+  envcr:
+    github: dlacreme/env.cr
+    branch: master
+  jwt:
+    github: crystal-community/jwt
+    version: 1.4.0

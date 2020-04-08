@@ -1,0 +1,5 @@
+scope: ./src/
+once:
+  - crystal run src/seed.cr
+always:
+  - crystal run src/seed.cr
