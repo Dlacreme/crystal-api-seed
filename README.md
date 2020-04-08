@@ -2,6 +2,8 @@
 
 Back-end for Seed application.
 
+/!\ replace `seed` with your application name
+
 ## Usage
 
 ### Commands
